@@ -23,6 +23,11 @@ export class InicioPage implements OnInit {
       icon: 'aperture-outline',
       name: 'Alerta',
       redirectTo: '/alert'
+    },
+    {
+      icon: 'aperture-outline',
+      name: 'Avatar',
+      redirectTo: '/avatar'
     }
   ];
 

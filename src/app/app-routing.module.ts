@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'alert',
     loadChildren: () => import('./paginas/alert/alert.module').then( m => m.AlertPageModule)
   },
+  {
+    path: 'avatar',
+    loadChildren: () => import('./paginas/avatar/avatar.module').then( m => m.AvatarPageModule)
+  },
 ];
 
 @NgModule({

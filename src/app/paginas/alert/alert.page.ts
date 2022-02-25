@@ -108,8 +108,9 @@ export class AlertPage implements OnInit {
           }
         }, {
           text: 'Ok',
-          handler: () => {
+          handler: (data) => {
             console.log('Confirm Ok');
+            console.log(data);
           }
         }
       ]
