@@ -18,7 +18,21 @@
 </ion-header>
 
 <ion-content>
-  <ion-chip color="primary" mode="ios" outline="true">
+  <ion-chip color="primary" mode="ios" outline="true" *ngFor="let a of [1,1,1]">
+
+    <ion-avatar>
+      <img src="/assets/Captura.PNG">
+    </ion-avatar>
+
     <ion-label>Default</ion-label>
   </ion-chip>
+
+  <ion-list>
+    <ion-item *ngFor="let aa of [1,1,1]">
+      <ion-avatar>
+        <img src="/assets/Captura.PNG" /> 
+      </ion-avatar>
+      <ion-label>Item Avatar</ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
